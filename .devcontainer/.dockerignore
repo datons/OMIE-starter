@@ -1,0 +1,7 @@
+tests
+.ssh
+certificates
+.prepare
+__pycache__
+.env
+modules.egg-info

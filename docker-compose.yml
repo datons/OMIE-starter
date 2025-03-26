@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    restart: always
+    volumes:
+      - .:/workspace
+    tty: true

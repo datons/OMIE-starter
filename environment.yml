@@ -1,0 +1,17 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - papermill
+  - pandas
+  - matplotlib
+  - openpyxl
+  - requests
+  - s3fs
+  - plotly
+  - pip:
+      - dataframe-image
+      - scipy

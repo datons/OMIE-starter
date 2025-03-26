@@ -1,0 +1,34 @@
+{
+    "name": "DevContainer",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "server",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "none",
+    "postCreateCommand": "mkdir -p ~/.ipython/profile_default/startup && cp .devcontainer/pandas-startup.py ~/.ipython/profile_default/startup/00-pandas-options.py",
+    "customizations": {
+        "codespaces": {
+            "openFiles": []
+        },
+        "vscode": {
+            "settings": "./settings.json",
+            "remoteUser": "vscode",
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python",
+                "bierner.docs-view",
+                "christian-kohler.path-intellisense",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.vscode-jupyter-slideshow",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "dracula-theme.theme-dracula",
+                "charliermarsh.ruff",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "GitHub.github-vscode-theme",
+                "ms-azuretools.vscode-docker",
+                "DavidAnson.vscode-markdownlint"
+            ]
+        }
+    }
+}
