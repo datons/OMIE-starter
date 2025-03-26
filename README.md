@@ -1,4 +1,5 @@
 # OMIE Data Analysis Workshop
+Workshop URL: [Maven - Taller Introducción Python: Ficheros OMIE](https://maven.com/p/bfeb13/taller-introduccion-python-ficheros-omie?utm_medium=ll_share_link&utm_source=instructor)
 
 ## Overview
 This workshop provides a hands-on introduction to Python for analyzing electricity market data from OMIE (Operador del Mercado Ibérico de Energía). Participants will learn how to download, preprocess, and analyze electricity market data to extract meaningful insights.
