@@ -13,6 +13,8 @@ dependencies:
   - s3fs
   - plotly
   - ipywidgets
+  - pyarrow
+  - fastparquet
   - pip:
       - dataframe-image
       - scipy
