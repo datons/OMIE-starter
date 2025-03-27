@@ -12,6 +12,7 @@ dependencies:
   - requests
   - s3fs
   - plotly
+  - ipywidgets
   - pip:
       - dataframe-image
       - scipy
